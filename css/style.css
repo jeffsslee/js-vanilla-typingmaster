@@ -1,0 +1,86 @@
+/* Roboto */
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+} */
+
+/* Montserrat */
+/*
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+} */
+
+/* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* 
+body {
+  font-family: "Lato", sans-serif;
+} */
+
+* {
+  margin: 0;
+  padding: 01;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background: #00acc1;
+  color: #eee;
+  font-size: 1.8rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.word-display {
+  margin-top: 3rem;
+  font-size: 50px;
+  color: #00acc1;
+}
+
+.word-input-box {
+  margin-top: 2rem;
+}
+
+.word-input {
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.game-info {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 250px0;
+}
+
+.time-display,
+.score-display {
+  font-size: 1.6rem;
+  color: #00acc1;
+}
+
+.button {
+  margin-top: 2rem;
+  width: 200px;
+  height: 35px;
+  background: #00acc1;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.loading {
+  background: #bbb;
+  cursor: not-allowed;
+}
