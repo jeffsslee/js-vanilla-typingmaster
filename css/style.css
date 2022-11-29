@@ -60,7 +60,7 @@ body {
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
-  width: 250px0;
+  width: 200px;
 }
 
 .time-display,
@@ -78,6 +78,7 @@ body {
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .loading {
